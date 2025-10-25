@@ -14,7 +14,7 @@
 		<span class="text-sm font-medium">Chat</span>
 	  </a>
 	  
-	  <!-- About -->
+	  <!-- About Section-->
 	  <a href="/#about" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
 		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
 		  <!-- About/User SVG -->
