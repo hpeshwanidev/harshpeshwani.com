@@ -58,7 +58,7 @@
 >
 
 <Social class="flex flex-col w-4/5 md:max-w-2xl justify-center m-auto py-12 leading-relaxed space-y-3"/>
-	
+
 	<div
 		class="flex flex-col w-4/5 md:max-w-2xl justify-center m-auto leading-relaxed space-y-3"
 	>
