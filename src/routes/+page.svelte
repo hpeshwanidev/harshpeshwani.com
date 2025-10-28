@@ -1,4 +1,6 @@
 <script>
+	import Background from '$lib/Background.svelte';
+    //import About from './about/+page.svelte';
     let roles = [
         "Software Developer",
         "Software Developer Intern",
@@ -52,8 +54,10 @@
     <meta name="description" content="Welcome to Harsh Peshwani's portfolio." />
 </svelte:head>
 
-<!-- HERO CONTENT -->
-<div class="relative z-10 text-center px-6 sm:px-8 md:px-0 max-w-md w-full space-y-8 mx-auto flex flex-col justify-center items-center h-screen">
+<div class="page-root" style="position: relative; min-height: 100vh;">
+	<Background />
+	<!-- HERO CONTENT -->
+	<div class="relative z-10 text-center px-6 sm:px-8 md:px-0 max-w-md w-full space-y-8 mx-auto flex flex-col justify-center items-center h-screen">
     <!-- Name -->
     <h1 class="text-5xl sm:text-1xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
         Harsh Peshwani
@@ -104,83 +108,31 @@
             </svg>
         </a>
     </div>
-</div>
 
-<!-- Down-arrow indicator at bottom with navigation to /about -->
-<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl opacity-70 cursor-pointer" on:click={() => window.location.href = '/about'} on:keydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { window.location.href = '/about'; e.preventDefault(); } }} tabindex="0" role="button" aria-label="Go to About page">
-    <i class="fas fa-chevron-down"></i>
-</div>
-
-
-
-<!-- <nav class="fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-md shadow-lg border-b border-white/10 py-4">
-	<div class="flex justify-center items-center space-x-10 text-white text-lg font-medium">
-	  <a href="#chat" class="flex items-center space-x-2 hover:text-blue-400 transition">
-		<i class="fa-regular fa-comments text-2xl"></i>
-		<span>Chat</span>
-	  </a>
-	  <a href="#about" class="flex items-center space-x-2 hover:text-blue-400 transition">
-		<i class="fa-regular fa-user text-2xl"></i>
-		<span>About</span>
-	  </a>
-	  <a href="#work" class="flex items-center space-x-2 hover:text-blue-400 transition">
-		<i class="fa-solid fa-briefcase text-2xl"></i>
-		<span>Work</span>
-	  </a>
-	  <a href="#awards" class="flex items-center space-x-2 hover:text-blue-400 transition">
-		<i class="fa-solid fa-trophy text-2xl"></i>
-		<span>Awards</span>
-	  </a>
-	  <a href="#contact" class="flex items-center space-x-2 hover:text-blue-400 transition">
-		<i class="fa-regular fa-envelope text-2xl"></i>
-		<span>Contact</span>
-	  </a>
-	  <a href="https://linkedin.com/" target="_blank" rel="noreferrer" class="flex items-center space-x-2 hover:text-blue-400 transition">
-		<i class="fa-brands fa-linkedin-in text-2xl"></i>
-		<span>LinkedIn</span>
-	  </a>
-	  <a href="https://github.com/" target="_blank" rel="noreferrer" class="flex items-center space-x-2 hover:text-blue-400 transition">
-		<i class="fa-brands fa-github text-2xl"></i>
-		<span>GitHub</span>
-	  </a>
+	<!-- Down-arrow indicator at bottom with navigation to /about -->
+	<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl opacity-70 cursor-pointer" on:click={() => window.location.href = '/about'} on:keydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { window.location.href = '/about'; e.preventDefault(); } }} tabindex="0" role="button" aria-label="Go to About page">
+		<i class="fas fa-chevron-down"></i>
 	</div>
-  </nav> -->
-  
-  
-	
+</div>
 
-  
-  <!-- Down-arrow indicator at bottom, unchanged: -->
-  
- 
-  <!-- Hero Section -->
-<!-- <div id="home" class="flex flex-col justify-center items-center h-screen text-center">
-    <h1 class="font-extrabold text-5xl md:text-6xl">I'm Harsh Peshwani</h1>
-    <p class="text-xl md:text-2xl mt-4">
-        <span>{roles[currentRoleIndex]}</span>
-    </p>
-</div> -->
-<!-- At the very end of your page/layout: -->
-<!-- <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl opacity-70 cursor-pointer">
-	<i class="fas fa-chevron-down"></i>
-</div> -->
+</div>
 <style>
-    @keyframes typing {
-        from {
-            width: 0;
-        }
-        to {
-            width: 100%;
-        }
-    }
+	@keyframes typing {
+		from {
+			width: 0;
+		}
+		to {
+			width: 100%;
+		}
+	}
 
-    @keyframes blink {
-        0%, 100% { opacity: 1; }
-        50% { opacity: 0; }
-    }
-    .animate-blink {
-        animation: blink 0.9s steps(1, end) infinite;
-    }
+	@keyframes blink {
+		0%, 100% { opacity: 1; }
+		50% { opacity: 0; }
+	}
+	.animate-blink {
+		animation: blink 0.9s steps(1, end) infinite;
+	}
 
 
 </style>
