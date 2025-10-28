@@ -59,20 +59,10 @@
 
 <Social class="flex flex-col w-4/5 md:max-w-2xl justify-center m-auto py-12 leading-relaxed space-y-3"/>
 	
-    <div
-		class="flex flex-col w-4/5 md:max-w-2xl justify-center m-auto py-12 leading-relaxed space-y-3"
+	<div
+		class="flex flex-col w-4/5 md:max-w-2xl justify-center m-auto leading-relaxed space-y-3"
 	>
 		<slot />
 	</div>
-	<Social />
-	<div class="opacity-60 flex flex-row justify-between md:justify-center">
-		<p class="text-xs py-4 ml-auto">made with lots of ☕️</p>
-		<button on:click={handleSwitchDarkMode} class="ml-auto mr-12">
-			{#if darkMode}
-				<i class="far fa-sun" />
-			{:else}
-				<i class="far fa-moon" />
-			{/if}
-		</button>
-	</div>
+
 </div>

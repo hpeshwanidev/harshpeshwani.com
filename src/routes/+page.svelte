@@ -53,7 +53,7 @@
 </svelte:head>
 
 <!-- HERO CONTENT -->
-<div class="relative z-10 text-center px-6 sm:px-8 md:px-0 max-w-md w-full space-y-8 mx-auto flex flex-col justify-center items-center min-h-screen">
+<div class="relative z-10 text-center px-6 sm:px-8 md:px-0 max-w-md w-full space-y-8 mx-auto flex flex-col justify-center items-center h-screen">
     <!-- Name -->
     <h1 class="text-5xl sm:text-1xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
         Harsh Peshwani
@@ -106,8 +106,8 @@
     </div>
 </div>
 
-<!-- Down-arrow indicator at bottom, unchanged: -->
-<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl opacity-70 cursor-pointer">
+<!-- Down-arrow indicator at bottom with navigation to /about -->
+<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl opacity-70 cursor-pointer" on:click={() => window.location.href = '/about'} on:keydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { window.location.href = '/about'; e.preventDefault(); } }} tabindex="0" role="button" aria-label="Go to About page">
     <i class="fas fa-chevron-down"></i>
 </div>
 
@@ -182,11 +182,5 @@
         animation: blink 0.9s steps(1, end) infinite;
     }
 
-    p span {
-        display: inline-block;
-        overflow: hidden;
-        white-space: nowrap;
-        border-right: 2px solid;
-        animation: typing 2s steps(20, end), blink 0.5s step-end infinite;
-    }
+
 </style>
