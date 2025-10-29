@@ -31,13 +31,8 @@
     import { onMount } from 'svelte';
     onMount(rotateGreeting);
 </script>
-
-<div class="page-root" style="position: relative; min-height: 60vh;">
-	<Background />
-
-	
-
-	<div class="flex flex-col md:flex-row md:items-center justify-between gap-6 md:gap-12 mb-5">
+<Background />
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-6 md:gap-12 mb-5">
     <!-- Left Section: Greeting and Name -->
     <div class="text-center md:text-left">
       <div class="mb-2 text-blue-400 font-medium text-lg">
@@ -87,7 +82,6 @@
 		<p class="text-lg leading-relaxed mb-6 text-gray-100">I’m a results-driven developer passionate about building reliable, high-impact digital experiences. With hands-on expertise in full-stack development, software quality assurance, and data-driven problem solving, I bridge the gap between code and business goals.</p>
 		<p class="text-lg leading-relaxed text-gray-100">I enjoy turning complex requirements into scalable, user-focused solutions while collaborating with teams, optimizing performance, and continuously learning new technologies to craft products that make a measurable difference.</p>
 	</div>
-</div>
 
 <style>
 	.fade-in-down {

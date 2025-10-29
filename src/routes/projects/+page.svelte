@@ -1,12 +1,11 @@
 <script>
-	import Footer from '$lib/Footer.svelte';
-	import Social from '$lib/Social.svelte';
+	import Background from '$lib/Background.svelte';
 </script>
 
 <svelte:head>
 	<title>Check out my projects!</title>
-	<meta name="title" content="Check out my projects projects - Bhavya Muni" />
-	<meta name="description" content="Check out all the projects that Bhavya Muni has created!" />
+	<meta name="title" content="Check out my projects projects - Harsh Peshwani" />
+	<meta name="description" content="Check out all the projects that Harsh Peshwani has created!" />
 </svelte:head>
 
 <div class="flex flex-row justify-start items-center">

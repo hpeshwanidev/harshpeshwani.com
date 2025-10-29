@@ -1,6 +1,7 @@
 <script>
 	import { spring } from 'svelte/motion';
 	import { onMount } from 'svelte';
+	import Social from './Social.svelte'
 
 	let innerWidth;
 	let innerHeight;
@@ -20,10 +21,10 @@
 <svelte:window on:mousemove={handleMousemove} bind:innerWidth bind:innerHeight />
 
 <div class="bg-root" style="--mx: {$mx}px; --my: {$my}px;"></div>
-
+<Social />
 <style>
 	.bg-root {
-		position: fixed;
+		position: absolute;
 		inset: 0;
 		z-index: -1;
 		pointer-events: none;
