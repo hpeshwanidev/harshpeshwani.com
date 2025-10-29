@@ -1,6 +1,6 @@
 <div class="fixed top-4 left-1/2 z-50 transform -translate-x-1/2 hidden md:block">
 	<div class="bg-black/20 backdrop-blur-sm px-4 py-2 rounded-2xl flex items-center gap-1 text-gray-100 shadow-lg">
-	  
+
 	  <!-- Chat -->
 	  <a href="/chat" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
 		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
@@ -13,7 +13,7 @@
 		</div>
 		<span class="text-sm font-medium">Chat</span>
 	  </a>
-	  
+
 	  <!-- About Section-->
 	  <a href="/about" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
 		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
@@ -25,9 +25,9 @@
 		</div>
 		<span class="text-sm font-medium">About</span>
 	  </a>
-	  
+
 	  <!-- Work -->
-	  <a href="/work" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
+	  <a href="/Work" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
 		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
 		  <!-- Work/Briefcase SVG -->
 		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -39,7 +39,7 @@
 		</div>
 		<span class="text-sm font-medium">Work</span>
 	  </a>
-	  
+
 	  <!-- Contact -->
 	  <a href="/#contact" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
 		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
@@ -51,7 +51,7 @@
 		</div>
 		<span class="text-sm font-medium">Contact</span>
 	  </a>
-	  
+
 	  <!-- LinkedIn -->
 	  <a href="https://www.linkedin.com/in/harshpeshwani/" target="_blank" rel="noreferrer" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20 ml-2">
 		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
@@ -66,7 +66,7 @@
 		</div>
 		<span class="text-sm font-medium">LinkedIn</span>
 	  </a>
-	  
+
 	  <!-- GitHub -->
 	  <a href="https://github.com/hpeshwanidev" target="_blank" rel="noreferrer" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20 ml-2">
 		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
@@ -80,7 +80,7 @@
 	</div>
   </div>
 
-  
+
 
 <style lang="css">
 	a, a span {

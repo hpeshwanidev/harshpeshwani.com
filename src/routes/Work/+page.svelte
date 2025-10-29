@@ -4,13 +4,13 @@
 	export let experiences = [
 	  {
 		company: "SOTI Inc.",
-		role: "QA Specialist Intern",
-		duration: "Jan 2023 – Dec 2023",
+		role: "Software QA Developer Intern",
+		duration: "Sept 2025 – Present",
 		location: "Mississauga, ON",
 		type: "Hybrid",
 		description:
 		  "Worked on manual and automated testing using Playwright, collaborated with dev teams to ensure product quality, and contributed to automation scripts.",
-		tech: ["Playwright", "JIRA", "JavaScript", "Agile"],
+		tech: ["Java", "JUnit", "JIRA", "Agile", "Playwright", "Git/Github", "Jenkins", "Javascript", "C#/.NET"],
 		highlights: [
 		  "Developed automated test scripts that reduced manual testing time by 30%.",
 		  "Collaborated with cross-functional teams to identify and resolve bugs before release."
@@ -47,11 +47,11 @@
 	];
 </script>
 <Background />
-<div class="page-root w-full flex flex-col" style="position: static; min-hieght: 100vh; ">
-	
+<div class="page-root w-full flex flex-col" style="position: static; min-height: 60vh; margin-top: 100px;">
+
 
 	<div class="flex flex-col items-center justify-center gap-8 mb-5 px-4">
-		<div class="text-center">
+		<div class="page-root text-center" sytle="position: relative; hieght: 10vh; ">
 			<h1 class="text-5xl md:text-6xl font-extrabold text-white mb-3 ">
 				Work Experience
 			</h1>
@@ -61,17 +61,15 @@
 		</div>
 
 		<!-- Timeline Container -->
-		<div class="w-full max-w-screen-xl">
+		<div class="w-full max-w-screen-xl mx-auto">
 			<!-- Timeline Line -->
 			<div class="relative">
-				<div class="absolute left-4 md:left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-400 to-transparent"></div>
-
+				<div class="absolute left-[20px] md:left-[50px] top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-400 to-transparent transform -translate-x-1/2"></div>
 				{#each experiences as exp, i}
-				<div class="relative group mb-8" style="animation: 0.6s ease-out {i * 0.3}s 1 normal both running fadeInUp;">
-					<div class="absolute left-[14px] md:left-[30px] w-5 h-5 rounded-full bg-neutral-950 border-2 border-neutral-800 transition-colors duration-300 group-hover:border-blue-400"></div>
-					<div class="ml-12 md:ml-20">
-						<div class="bg-gradient-to-br from-slate-800/60 via-slate-800/50 to-slate-900/60 backdrop-blur-sm rounded-2xl border border-slate-700/50 overflow-hidden w-full shadow-2xl shadow-black/20">
-							<div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-purple-500/5 opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-300"></div>
+				<div class="relative group mb-8">
+				  <div class="absolute left-[20px] md:left-[50px] w-5 h-5 rounded-full bg-neutral-950 border-2 border-neutral-800 transition-colors duration-300 group-hover:border-blue-400 transform -translate-x-1/2"></div>					<div class="ml-12 md:ml-20 w-[100%] md:w-[80%] lg:w-[100%]">
+					<div class="bg-gradient-to-br from-slate-800/90 via-slate-800/60 to-slate-900/70 backdrop-blur-md rounded-3xl border border-slate-700/40 overflow-hidden w-full shadow-2xl shadow-black/30 p-8 sm:p-10 md:p-12 transition-transform duration-300 hover:scale-[1.01]">
+					<div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-purple-500/5 opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-300"></div>
 							<div class="p-4 sm:p-6 border-b border-slate-700/60 relative z-10">
 								<div class="block sm:hidden">
 									<div class="flex items-center gap-3 mb-3">
