@@ -38,7 +38,7 @@
 
 	<div class="flex flex-col items-center justify-center gap-12 mb-5 px--1">
 		<div class="page-root text-center" sytle="position: relative; hieght: 10vh; ">
-			<h1 class="text-5xl md:text-6xl font-extrabold text-white mb--1 ">
+			<h1 class="text-5xl md:text-6xl font-extrabold text-white mb--1" style="font-family: 'Poppins', sans-serif;">
 				Work Experience
 			</h1>
 			
