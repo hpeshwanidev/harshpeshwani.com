@@ -15,9 +15,7 @@
 <style>
 	.scroll-container {
 		height: 100vh;
-		overflow-y: scroll;
-		scroll-snap-type: y mandatory;
-		scroll-behavior: smooth;
+		overflow-y: hidden;
 	}
 
 	section {

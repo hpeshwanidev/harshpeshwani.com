@@ -107,8 +107,8 @@
         </a>
     </div>
 
-	<!-- Down-arrow indicator at bottom with navigation to /about -->
-	<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl opacity-70 cursor-pointer" on:click={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })} on:keydown={(e) => { if (e.key === 'Enter' || e.key === ' ') { window.scrollTo({ top: window.innerHeight, behavior: 'smooth' }); e.preventDefault(); } }} tabindex="0" role="button" aria-label="Go to About page">
+	<!-- Down-arrow indicator at bottom with no scroll functionality -->
+	<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl opacity-70">
 		<i class="fas fa-chevron-down"></i>
 	</div>
 </div>
