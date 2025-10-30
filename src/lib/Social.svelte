@@ -50,6 +50,17 @@
 		<span class="text-sm font-medium">Projects</span>
 	  </a>
 
+	  <!-- Skills -->
+	  <a href="/skills" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
+		  <!-- Skills/Star SVG -->
+		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			<polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon>
+		  </svg>
+		</div>
+		<span class="text-sm font-medium">Skills</span>
+	  </a>
+
 	  <!-- Contact -->
 	  <a href="/#contact" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
 		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
