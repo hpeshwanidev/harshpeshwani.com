@@ -1,17 +1,16 @@
 <div class="fixed top-4 left-1/2 z-50 transform -translate-x-1/2 hidden md:block">
 	<div class="bg-black/20 backdrop-blur-sm px-4 py-2 rounded-2xl flex items-center gap-1 text-gray-100 shadow-lg">
 
-	  <!-- Chat -->
-	  <a href="/chat" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
+	  <!-- Home -->
+	  <a href="/" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
 		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
-		  <!-- Chat SVG -->
+		  <!-- Home SVG -->
 		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-			<path d="M8 9h8"></path>
-			<path d="M8 13h6"></path>
-			<path d="M18 4a3 3 0 0 1 3 3v8a3 3 0 0 1 -3 3h-5l-5 3v-3h-2a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12z"></path>
+			<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+			<polyline points="9,22 9,12 15,12 15,22"></polyline>
 		  </svg>
 		</div>
-		<span class="text-sm font-medium">Chat</span>
+		<span class="text-sm font-medium">Home</span>
 	  </a>
 
 	  <!-- About Section-->
@@ -38,6 +37,17 @@
 		  </svg>
 		</div>
 		<span class="text-sm font-medium">Work</span>
+	  </a>
+
+	  <!-- Projects -->
+	  <a href="/projects" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
+		  <!-- Projects/Folder SVG -->
+		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			<path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
+		  </svg>
+		</div>
+		<span class="text-sm font-medium">Projects</span>
 	  </a>
 
 	  <!-- Contact -->
