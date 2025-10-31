@@ -8,7 +8,7 @@
 	import '@fontsource/inter/700.css';
 	import '@fontsource/inter/800.css';
 
-	import Social from '$lib/Social.svelte';
+	//import Social from '$lib/Social.svelte';
 
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';

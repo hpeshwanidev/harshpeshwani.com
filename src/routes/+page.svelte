@@ -80,6 +80,7 @@
 			>
 				<!-- Message/Chat SVG -->
 				<svg
+				    href="/chat"
 					xmlns="http://www.w3.org/2000/svg"
 					width="18"
 					height="18"
@@ -182,8 +183,8 @@
 	</div>
 
 	<!-- Down-arrow indicator at bottom -->
-	<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl opacity-70">
-		<span>↓</span>
+	<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl justify-center opacity-70">
+		<i class="fas fa-chevron-down justify-center"></i>
 	</div>
 </div>
 
