@@ -30,6 +30,8 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/inter": "^4.5.15",
-		"@vercel/analytics": "^0.1.8"
+		"@vercel/analytics": "^0.1.8",
+		"dotenv": "^17.2.3",
+		"openai": "^6.7.0"
 	}
 }
