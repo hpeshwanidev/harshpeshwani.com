@@ -13,34 +13,8 @@
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
 	inject({ mode: dev ? 'development' : 'production' });
-
-	import { browser } from '$app/environment';
-
-	let darkMode = false;
-
-	function handleSwitchDarkMode() {
-		darkMode = !darkMode;
-
-		localStorage.setItem('theme', darkMode ? 'dark' : 'light');
-
-		darkMode
-			? document.documentElement.classList.add('dark')
-			: document.documentElement.classList.remove('dark');
-	}
-
-	if (browser) {
-		if (
-			localStorage.theme === 'dark' ||
-			(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
-		) {
-			document.documentElement.classList.add('dark');
-			darkMode = true;
-		} else {
-			document.documentElement.classList.remove('dark');
-			darkMode = false;
-		}
-	}
 </script>
+
 
 <div class="relative flex flex-col min-h-screen justify-center dark:text-white">
 	<div
@@ -48,4 +22,5 @@
 	>
 		<slot />
 	</div>
+
 </div>

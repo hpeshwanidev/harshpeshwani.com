@@ -60,7 +60,7 @@
 >
 	<!-- Name -->
 	<h1
-		class="text-5xl sm:text-1xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50"
+		class="text-5xl sm:text-1xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-600 dark:from-neutral-50 dark:to-neutral-400"
 	>
 		Harsh Peshwani
 	</h1>
@@ -76,7 +76,7 @@
 	<div class="flex flex-col sm:flex-row justify-center items-center gap-4">
 		<a href="/chat">
 			<span
-				class="inline-flex items-center px-6 py-3 bg-blue-600 text-gray-100 rounded-lg hover:bg-blue-700 transition-all duration-300 cursor-pointer backdrop-blur-sm"
+				class="inline-flex items-center px-6 py-3 bg-blue-600 text-gray-900 dark:text-gray-100 rounded-lg hover:bg-blue-700 transition-all duration-300 cursor-pointer backdrop-blur-sm"
 			>
 				<!-- Message/Chat SVG -->
 				<svg

@@ -1,3 +1,32 @@
+<script>
+	import { browser } from '$app/environment';
+
+	let darkMode = false;
+
+	function handleSwitchDarkMode() {
+		darkMode = !darkMode;
+
+		localStorage.setItem('theme', darkMode ? 'dark' : 'light');
+
+		darkMode
+			? document.documentElement.classList.add('dark')
+			: document.documentElement.classList.remove('dark');
+	}
+
+	if (browser) {
+		if (
+			localStorage.theme === 'dark' ||
+			(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+		) {
+			document.documentElement.classList.add('dark');
+			darkMode = true;
+		} else {
+			document.documentElement.classList.remove('dark');
+			darkMode = false;
+		}
+	}
+</script>
+
 <div class="fixed top-4 left-1/2 z-50 transform -translate-x-1/2 hidden md:block">
 	<div class="bg-black/20 backdrop-blur-sm px-4 py-2 rounded-2xl flex items-center gap-1 text-gray-100 shadow-lg">
 
@@ -98,6 +127,24 @@
 		</div>
 		<span class="text-sm font-medium">GitHub</span>
 	  </a>
+
+	  <!-- Theme Toggle -->
+	  <button on:click={handleSwitchDarkMode} class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20 ml-2">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
+		  <!-- Theme SVG -->
+		  {#if darkMode}
+			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			  <circle cx="12" cy="12" r="5"></circle>
+			  <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"></path>
+			</svg>
+		  {:else}
+			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+			  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+			</svg>
+		  {/if}
+		</div>
+		<span class="text-sm font-medium">Theme</span>
+	  </button>
 	</div>
   </div>
 
