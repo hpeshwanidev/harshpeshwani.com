@@ -40,7 +40,7 @@
 
 	<div class="flex flex-col items-center justify-center gap-12 mb-5 px--1">
 		<div class="page-root text-center" sytle="position: relative; hieght: 10vh; ">
-			<h1 class="text-5xl md:text-6xl font-extrabold text-gray-95 dark:text-gray-50" style="font-family: 'Poppins', sans-serif;">
+			<h1 class="text-5xl md:text-6xl text-gray-95 dark:text-gray-50" style="font-family: 'Poppins', sans-serif;">
 				Work Experience
 			</h1>
 			
@@ -54,19 +54,19 @@
 				{#each experiences as exp, i}
 				<div class="relative group mb-8">
 				  <div class="absolute left-[14px] md:left-[20px] w-5 h-5 rounded-full bg-neutral-950 border-2 border-neutral-800 transition-colors duration-300 group-hover:border-blue-400 transform -translate-x-1/2"></div>					<div class="ml-12 md:ml-12 w-[100%] md:w-[80%] lg:w-[110%]">
-					<div class="bg-gradient-to-br from-slate-800/90 via-slate-800/60 to-slate-900/70 dark:from-slate-800/90 dark:via-slate-800/60 dark:to-slate-900/70   from-gray-100/95   via-gray-200/95   to-gray-300/95 backdrop-blur-md rounded-3xl border border-slate-700/40 dark:border-slate-700/40   border-gray-300/60 overflow-hidden w-full shadow-2xl shadow-black/30 dark:shadow-black/30   shadow-gray-400/20 p-4 sm:p-4 md:p-6 transition-transform duration-300 hover:scale-[1.01]">
+					<div class="bg-gradient-to-br from-slate-800/90 via-slate-800/60 to-slate-900/70 dark:from-slate-800/90 dark:via-slate-800/60 dark:to-slate-900/70   from-gray-100 via-gray-200 to-gray-300 backdrop-blur-md rounded-3xl border border-slate-700/40 dark:border-slate-700/40   border-gray-200/60 overflow-hidden w-full shadow-2xl shadow-black/30 dark:shadow-black/30   shadow-gray-200/20 p-4 sm:p-4 md:p-6 transition-transform duration-300 hover:scale-[1.01]">
 					<div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-purple-500/5 dark:from-blue-500/5 dark:via-transparent dark:to-purple-500/5   from-blue-500/10   via-transparent   to-purple-500/10 opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-300"></div>
-							<div class="p-2 sm:p-3 border-b border-slate-700/60 dark:border-slate-700/60 border-gray-300/60 relative z-8">
+							<div class="p-2 sm:p-3 border-b border-slate-700/60 dark:border-slate-700/60 border-gray-200/60 relative z-8">
 								<div class="block sm:hidden">
 									<div class="flex items-center gap-3 mb-3">
-											<div class="w-12 h-12 flex items-center justify-center overflow-hidden flex-shrink-0 bg-slate-700 rounded-full">
+											<div class="w-12 h-12 flex items-center justify-center overflow-hidden flex-shrink-0 bg-slate-700 dark:bg-slate-700 bg-gray-300 rounded-full">
 												{#if exp.company === "SOTI Inc."}
 													<img src={sotiLogo} alt="SOTI Inc. Logo" class="w-full h-full object-cover rounded-full" />
 												{:else}
 													<span class=" text-gray-900 dark:text-white font-bold">{exp.company.charAt(0)}</span>
 												{/if}
 											</div>
-										<h3 class="text-base font-bold  text-gray-900  line-clamp-2 flex-1">{exp.role}</h3>
+										<h3 class="text-base font-bold dark: text-gray-900  line-clamp-2 flex-1">{exp.role}</h3>
 									</div>
 									<div class="flex items-center gap-2  text-gray-600 dark:text-slate-300 mb-3">
 										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-3 h-3 flex-shrink-0 text-slate-400" aria-hidden="true">
@@ -98,7 +98,7 @@
 								<div class="hidden sm:block">
 									<div class="flex items-start justify-between mb-4">
 										<div class="flex items-center gap-4 flex-1 min-w-0">
-											<div class="w-16 h-16 flex items-center justify-center overflow-hidden flex-shrink-0 bg-slate-700 dark:bg-slate-700   bg-gray-200 rounded-full">
+											<div class="w-16 h-16 flex items-center justify-center overflow-hidden flex-shrink-0 bg-slate-700 dark:bg-slate-700   bg-gray-300 rounded-full">
 												{#if exp.company === "SOTI Inc."}
 													<img src={sotiLogo} alt="SOTI Inc. Logo" class="w-full h-full object-cover rounded-full" />
 												{:else}
@@ -106,14 +106,14 @@
 												{/if}
 											</div>
 											<div class="min-w-0 flex-1">
-												<h3 class="text-xl md:text-2xl font-bold text-white dark:text-white   text-gray-700 mb-2 line-clamp-2">{exp.role}</h3>
-												<div class="flex items-center gap-2 text-slate-300 dark:text-slate-300   text-gray-600">
+												<h3 class="text-xl md:text-2xl font-bold text-gray-800 dark:text-white mb-2 line-clamp-2">{exp.role}</h3>
+												<div class="flex items-center gap-2 text-slate-300 dark:text-slate-300   text-gray-800">
 													<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link w-4 h-4 flex-shrink-0" aria-hidden="true">
 														<path d="M15 3h6v6"></path>
 														<path d="M10 14 21 3"></path>
 														<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
 													</svg>
-													<a href={exp.company === "SOTI Inc." ? "https://www.soti.net/" : exp.company === "Quality Cheese Inc." ? "https://qualitycheese.com" : "#"} target="_blank" rel="noopener noreferrer" class="font-medium text-sm truncate hover:text-white dark:hover:text-white   hover:text-gray-900 transition-colors duration-200 hover:underline underline-offset-2">{exp.company}</a>
+													<a href={exp.company === "SOTI Inc." ? "https://www.soti.net/" : exp.company === "Quality Cheese Inc." ? "https://qualitycheese.com" : "#"} target="_blank" rel="noopener noreferrer" class="font-medium text-sm truncate text-gray-800 dark:text-slate-300 hover:text-white dark:hover:text-white   hover:text-gray-900 transition-colors duration-200 hover:underline underline-offset-2">{exp.company}</a>
 												</div>
 											</div>
 										</div>
@@ -134,7 +134,7 @@
 												<span class="truncate">{exp.type}</span>
 											</div>
 										</div>
-										<div class="flex items-center gap-2 ml-4 flex-shrink-0 bg-slate-700/30 dark:bg-slate-700/30   bg-gray-200/60 px-3 py-1 rounded-full">
+										<div class="flex items-center gap-2 ml-4 flex-shrink-0 bg-slate-700/30 dark:bg-slate-700/30   bg-gray-300/60 px-3 py-1 rounded-full">
 											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar w-4 h-4 text-gray-100 dark:text-gray-100   text-gray-700" aria-hidden="true">
 												<path d="M8 2v4"></path>
 												<path d="M16 2v4"></path>
@@ -161,10 +161,10 @@
 										{/each}
 									</div>
 									<div>
-										<h5 class="text-sm font-medium text-slate-300 dark:text-slate-300   text-gray-600 mb-3">Technologies &amp; Skills</h5>
+										<h5 class="text-sm font-medium mb-3">Technologies &amp; Skills</h5>
 										<div class="flex flex-wrap gap-2">
 											{#each exp.tech as tech}
-											<span class="px-3 py-1.5 text-xs font-medium rounded-full bg-gradient-to-r from-slate-700/60 to-slate-800/60 dark:from-slate-700/60 dark:to-slate-800/60   from-gray-200/80   to-gray-300/80 text-slate-200 dark:text-slate-200   text-gray-800 border border-slate-600/50 dark:border-slate-600/50   border-gray-400/50" style="animation-delay: {exp.tech.indexOf(tech) * 0.05}s;">{tech}</span>
+											<span class="px-3 py-1.5 text-xs font-medium rounded-full bg-gradient-to-r from-slate-700/60 to-slate-800/60 dark:from-slate-700/60 dark:to-slate-800/60   from-gray-300/80   to-gray-400/80 text-slate-200 dark:text-slate-200   text-black border border-slate-600/50 dark:border-slate-600/50   border-gray-500/50" style="animation-delay: {exp.tech.indexOf(tech) * 0.05}s;">{tech}</span>
 											{/each}
 										</div>
 									</div>
