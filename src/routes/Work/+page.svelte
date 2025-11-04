@@ -54,7 +54,7 @@
 				{#each experiences as exp, i}
 				<div class="relative group mb-8">
 				  <div class="absolute left-[14px] md:left-[20px] w-5 h-5 rounded-full bg-neutral-950 border-2 border-neutral-800 transition-colors duration-300 group-hover:border-blue-400 transform -translate-x-1/2"></div>					<div class="ml-12 md:ml-12 w-[100%] md:w-[80%] lg:w-[110%]">
-					<div class="bg-gradient-to-br from-slate-800/90 via-slate-800/60 to-slate-900/70 dark:from-slate-800/90 dark:via-slate-800/60 dark:to-slate-900/70   from-gray-100 via-gray-200 to-gray-300 backdrop-blur-md rounded-3xl border border-slate-700/40 dark:border-slate-700/40   border-gray-200/60 overflow-hidden w-full shadow-2xl shadow-black/30 dark:shadow-black/30   shadow-gray-200/20 p-4 sm:p-4 md:p-6 transition-transform duration-300 hover:scale-[1.01]">
+					<div class="bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200 dark:from-slate-800/90 dark:via-slate-800/60 dark:to-slate-900/70 backdrop-blur-md rounded-3xl border border-gray-200/60 dark:border-slate-700/40 overflow-hidden w-full shadow-2xl shadow-gray-200/20 dark:shadow-black/30 p-4 sm:p-4 md:p-6 transition-transform duration-300 hover:scale-[1.01]">
 					<div class="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-purple-500/5 dark:from-blue-500/5 dark:via-transparent dark:to-purple-500/5   from-blue-500/10   via-transparent   to-purple-500/10 opacity-0 pointer-events-none group-hover:opacity-100 transition-opacity duration-300"></div>
 							<div class="p-2 sm:p-3 border-b border-slate-700/60 dark:border-slate-700/60 border-gray-200/60 relative z-8">
 								<div class="block sm:hidden">
@@ -149,22 +149,22 @@
 							<div class="grid grid-cols-1 lg:grid-cols-1 gap-8 p-6 relative z-10">
 								<div class="space-y-6">
 									<div class="flex items-center gap-1 mb-6">
-										<h4 class="text-lg font-semibold text-gray-100 dark:text-gray-100   text-gray-900">Key Highlights</h4>
-										<div class="flex-1 h-px bg-gradient-to-r from-slate-600 dark:from-slate-600   from-gray-400 to-transparent"></div>
+										<h4 class="text-lg font-semibold text-gray-900 dark:text-gray-100">Key Highlights</h4>
+										<div class="flex-1 h-px bg-gradient-to-r from-gray-400 dark:from-slate-600 to-transparent"></div>
 									</div>
-									<div class="space-y-4 mb-8 text-gray-100 dark:text-gray-100">
+									<div class="space-y-4 mb-8 text-gray-700 dark:text-gray-100">
 										{#each exp.highlights as highlight}
 										<div class="flex items-start gap-3 group/highlight hover:translate-x-1 transition-transform duration-200">
-											<div class="w-2 h-2 bg-slate-400 dark:bg-slate-400   bg-gray-500 rounded-full mt-2 flex-shrink-0"></div>
-											<p class="text-sm leading-relaxed text-gray-600 dark:text-gray-100   text-gray-700 group-hover/high  text-gray-50 dark:group-hover/high  text-gray-50   group-hover/high  text-gray-900 transition-colors duration-200">{highlight}</p>
+											<div class="w-2 h-2 bg-gray-500 dark:bg-slate-400 rounded-full mt-2 flex-shrink-0"></div>
+											<p class="text-sm leading-relaxed text-gray-700 dark:text-gray-100 group-hover/highlight:text-gray-900 dark:group-hover/highlight:text-gray-50 transition-colors duration-200">{highlight}</p>
 										</div>
 										{/each}
 									</div>
 									<div>
-										<h5 class="text-sm font-medium mb-3">Technologies &amp; Skills</h5>
+										<h5 class="text-sm font-medium text-gray-900 dark:text-slate-300 mb-3">Technologies &amp; Skills</h5>
 										<div class="flex flex-wrap gap-2">
 											{#each exp.tech as tech}
-											<span class="px-3 py-1.5 text-xs font-medium rounded-full bg-gradient-to-r from-slate-700/60 to-slate-800/60 dark:from-slate-700/60 dark:to-slate-800/60   from-gray-300/80   to-gray-400/80 text-slate-200 dark:text-slate-200   text-black border border-slate-600/50 dark:border-slate-600/50   border-gray-500/50" style="animation-delay: {exp.tech.indexOf(tech) * 0.05}s;">{tech}</span>
+											<span class="px-3 py-1.5 text-xs font-medium rounded-full bg-gradient-to-r from-gray-300/80 to-gray-400/80 dark:from-slate-700/60 dark:to-slate-800/60 text-black dark:text-slate-200 border border-gray-500/50 dark:border-slate-600/50" style="animation-delay: {exp.tech.indexOf(tech) * 0.05}s;">{tech}</span>
 											{/each}
 										</div>
 									</div>
