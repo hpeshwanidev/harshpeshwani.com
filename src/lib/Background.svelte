@@ -30,10 +30,10 @@
 		pointer-events: none;
 		background: radial-gradient(
 				circle at var(--mx) var(--my),
-				rgb(241, 245, 249) 70%,
+				rgb(249, 248, 245) 80%,
 				transparent 125%
 			),
-			linear-gradient(to right, rgb(253, 186, 116), rgb(253, 164, 175));
+			linear-gradient(to right, rgb(252, 183, 109), rgb(251, 154, 165));
 	}
 
 	:global(.dark) .bg-root {

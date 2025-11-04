@@ -35,15 +35,15 @@
 <div class="flex flex-col md:flex-row md:items-center justify-between gap-6 md:gap-12 mb-5">
     <!-- Left Section: Greeting and Name -->
     <div class="text-center md:text-left">
-      <div class="mb-2 text-blue-400 font-medium text-lg">
+      <div class="mb-2 text-blue-500 dark: text-blue-400 font-medium text-lg">
         <span class="inline-block">
           <span class="{greetingClass}">{displayGreeting}</span>, my name is
         </span>
       </div>
-      <h1 class="text-5xl md:text-6xl font-extrabold text-white mb-3">
+      <h1 class="text-5xl text-gray-95 dark:text-gray-50 md:text-6xl font-extrabold mb-3">
         Harsh Peshwani
       </h1>
-      <p class="text-lg md:text-xl text-gray-300 max-w-xl leading-relaxed">
+      <p class="text-lg md:text-xl text-gray-95 dark:text-gray-50 max-w-xl leading-relaxed">
         Building at the intersection of product, people &amp; data
       </p>
     </div>
@@ -78,9 +78,9 @@
   </div>
   
 	<div class="mb-4">
-		<div class="w-full h-1 bg-gradient-to-r from-blue-400 to-transparent mb-10"></div>
-		<p class="text-lg leading-relaxed mb-6 text-gray-100">I’m a results-driven developer passionate about building reliable, high-impact digital experiences. With hands-on expertise in full-stack development, software quality assurance, and data-driven problem solving, I bridge the gap between code and business goals.</p>
-		<p class="text-lg leading-relaxed text-gray-100">I enjoy turning complex requirements into scalable, user-focused solutions while collaborating with teams, optimizing performance, and continuously learning new technologies to craft products that make a measurable difference.</p>
+		<div class="w-full h-1 bg-gradient-to-r from-blue-500 to-transparent mb-10"></div>
+		<p class="text-lg leading-relaxed mb-6 text-gray-95 dark:text-gray-50">I’m a results-driven developer passionate about building reliable, high-impact digital experiences. With hands-on expertise in full-stack development, software quality assurance, and data-driven problem solving, I bridge the gap between code and business goals.</p>
+		<p class="text-lg leading-relaxed text-gray-95 dark:text-gray-50">I enjoy turning complex requirements into scalable, user-focused solutions while collaborating with teams, optimizing performance, and continuously learning new technologies to craft products that make a measurable difference.</p>
 	</div>
 
 <style>

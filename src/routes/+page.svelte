@@ -76,7 +76,7 @@
 	<div class="flex flex-col sm:flex-row justify-center items-center gap-4">
 		<a href="/chat">
 			<span
-				class="inline-flex items-center px-6 py-3 bg-blue-600 text-gray-900 dark:text-gray-100 rounded-lg hover:bg-blue-700 transition-all duration-300 cursor-pointer backdrop-blur-sm"
+				class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 hover:scale-105 transform shadow-lg hover:shadow-blue-500/25 no-underline"
 			>
 				<!-- Message/Chat SVG -->
 				<svg
@@ -102,7 +102,7 @@
 
 	<!-- Social Icons & Contact Row -->
 	<div
-		class="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 space-y-4 sm:space-y-0 text-gray-400 mt-4"
+		class="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 space-y-4 sm:space-y-0 text-gray-90 dark:text-gray-200 mt-4"
 	>
 		<!-- LinkedIn -->
 		<a
@@ -183,7 +183,7 @@
 	</div>
 
 	<!-- Down-arrow indicator at bottom -->
-	<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl justify-center opacity-70">
+	<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl justify-center text-gray-90 dark:text-gray-100 opacity-70">
 		<i class="fas fa-chevron-down justify-center"></i>
 	</div>
 </div>
