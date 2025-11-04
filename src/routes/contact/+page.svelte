@@ -17,7 +17,7 @@
 	</h1>
 
 	<!-- Name -->
-	<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
+	<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-gray-800 to-gray-600 dark:from-neutral-200 dark:to-neutral-600 bg-opacity-50">
 		Harsh Peshwani
 	</h2>
 
@@ -47,7 +47,7 @@
 	<!-- Chat with me button -->
 	<a
 		href="/chat"
-		class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 hover:scale-105 transform shadow-lg hover:shadow-blue-500/25 no-underline"
+		class="inline-flex items-center px-6 py-3 bg-gray-800 hover:bg-gray-900 dark:bg-blue-600 dark:hover:bg-blue-700 text-white rounded-lg transition-all duration-300 hover:scale-105 transform shadow-lg hover:shadow-gray-500/25 dark:hover:shadow-blue-500/25 no-underline"
 	>
 		<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
 			<path d="m3 21 1.9-5.7a8.5 8.5 0 1 1 3.8 3.8z"></path>
@@ -57,7 +57,7 @@
 
 	<!-- Quote -->
 	<div class="mt-12 max-w-lg mx-auto">
-		<blockquote class="text-lg text-neutral-400 italic">
+		<blockquote class="text-lg text-gray-600 dark:text-neutral-400 italic">
 			"Code is poetry written in logic, and every great project begins with a conversation."
 		</blockquote>
 	</div>

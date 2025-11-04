@@ -115,15 +115,15 @@
 	<div class="max-w-7xl mx-auto w-full">
 		<!-- Title -->
 		<div class="text-center mb-16">
-			<h1 class="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-cyan-400 text-transparent bg-clip-text">
+			<h1 class="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-gray-700 to-gray-800 dark:from-gray-200 dark:to-gray-100 text-transparent bg-clip-text">
 				Projects
 			</h1>
 
 			<!-- Typing animation -->
 			<div class="font-mono text-lg flex items-center justify-center mt-4 h-8">
-				<span class="text-lg text-blue-400 font-bold mr-2">></span>
-				<span>{displayText}</span>
-				<span class="border-r-2 border-blue-400 animate-blink ml-1" style="height: 1.4em;"></span>
+				<span class="text-lg text-gray-600 dark:text-gray-300 font-bold mr-2">></span>
+				<span class="text-gray-700 dark:text-gray-200">{displayText}</span>
+				<span class="border-r-2 border-gray-600 dark:border-gray-300 animate-blink ml-1" style="height: 1.4em;"></span>
 			</div>
 		</div>
 
@@ -131,18 +131,18 @@
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 			{#each projects as project, index}
 				<div
-					class="group p-8 rounded-3xl bg-neutral-900/50 backdrop-blur-sm border border-neutral-800 hover:border-blue-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/20 hover:scale-105 transform"
+					class="group p-8 rounded-3xl bg-gray-50 dark:bg-neutral-900/50 backdrop-blur-sm border border-gray-200 dark:border-neutral-800 hover:border-blue-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/20 hover:scale-105 transform"
 				>
-					<h2 class="text-xl font-semibold mb-4 text-neutral-100 group-hover:text-blue-300 transition-colors duration-300">
+					<h2 class="text-xl font-semibold mb-4 text-gray-900 dark:text-neutral-100 group-hover:text-blue-300 transition-colors duration-300">
 						{project.title}
 					</h2>
-					<p class="text-neutral-400 mb-6 text-sm leading-relaxed group-hover:text-neutral-300 transition-colors duration-300">
+					<p class="text-gray-700 dark:text-neutral-400 mb-6 text-sm leading-relaxed group-hover:text-gray-900 dark:group-hover:text-neutral-300 transition-colors duration-300">
 						{project.description}
 					</p>
 
 					<div class="flex flex-wrap gap-3 mb-6">
 						{#each project.tags as tag}
-							<span class="px-4 py-2 text-xs font-medium rounded-full bg-neutral-800/70 text-blue-400 border border-neutral-700 hover:bg-blue-500/20 hover:text-blue-300 transition-all duration-300">
+							<span class="px-4 py-2 text-xs font-medium rounded-full bg-gray-200 dark:bg-neutral-800/70 text-gray-800 dark:text-blue-400 border border-gray-300 dark:border-neutral-700 hover:bg-blue-500/20 hover:text-blue-300 transition-all duration-300">
 								{tag}
 							</span>
 						{/each}
@@ -152,7 +152,7 @@
 						href={project.link}
 						target="_blank"
 						rel="noopener noreferrer"
-						class="inline-flex items-center px-4 py-2 bg-blue-600/20 hover:bg-blue-600/40 text-blue-400 hover:text-blue-300 rounded-lg transition-all duration-300 border border-blue-500/30 hover:border-blue-500/60 group-hover:shadow-lg group-hover:shadow-blue-500/20 no-underline"
+						class="inline-flex items-center px-4 py-2 bg-gray-200 dark:bg-blue-600/20 hover:bg-gray-100 dark:hover:bg-blue-600/40 text-gray-800 dark:text-blue-400 hover:text-gray-900 dark:hover:text-blue-300 rounded-lg transition-all duration-300 border border-gray-300 dark:border-blue-500/30 hover:border-gray-400 dark:hover:border-blue-500/60 group-hover:shadow-lg group-hover:shadow-blue-500/20 no-underline"
 					>
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
 							<path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>

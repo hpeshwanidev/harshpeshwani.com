@@ -28,11 +28,11 @@
 </script>
 
 <div class="fixed top-4 left-1/2 z-50 transform -translate-x-1/2 hidden md:block">
-	<div class="bg-black/20 backdrop-blur-sm px-4 py-2 rounded-2xl flex items-center gap-1 dark:text-gray-100 text-gray-900 shadow-lg">
+	<div class="bg-black/20 backdrop-blur-sm px-4 py-2 rounded-2xl flex items-center gap-1 text-gray-100 shadow-lg">
 
 	  <!-- Home -->
 	  <a href="/" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
-		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-90 dark:text-gray-100">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
 		  <!-- Home SVG -->
 		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 			<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
@@ -44,7 +44,7 @@
 
 	  <!-- About Section-->
 	  <a href="/about" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
-		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full ttext-gray-90 dark:text-gray-100">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
 		  <!-- About/User SVG -->
 		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 			<path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
@@ -56,7 +56,7 @@
 
 	  <!-- Work -->
 	  <a href="/Work" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
-		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-90 dark:text-gray-100">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
 		  <!-- Work/Briefcase SVG -->
 		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 			<path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
@@ -70,7 +70,7 @@
 
 	  <!-- Projects -->
 	  <a href="/project" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
-		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-90 dark:text-gray-100">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
 		  <!-- Projects/Folder SVG -->
 		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 			<path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"></path>
@@ -81,7 +81,7 @@
 
 	  <!-- Skills -->
 	  <a href="/skills" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
-		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-90 dark:text-gray-100">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
 		  <!-- Skills/Star SVG -->
 		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 			<polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon>
@@ -92,7 +92,7 @@
 
 	  <!-- Contact -->
 	  <a href="/contact" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20">
-		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-90 dark:text-gray-100">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
 		  <!-- Mail SVG -->
 		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 			<path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
@@ -104,7 +104,7 @@
 
 	  <!-- LinkedIn -->
 	  <a href="https://www.linkedin.com/in/harshpeshwani/" target="_blank" rel="noreferrer" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20 ml-2">
-		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-90 dark:text-gray-100">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
 		  <!-- LinkedIn SVG -->
 		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 			<path d="M8 11v5"></path>
@@ -119,7 +119,7 @@
 
 	  <!-- GitHub -->
 	  <a href="https://github.com/hpeshwanidev" target="_blank" rel="noreferrer" class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20 ml-2">
-		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-90 dark:text-gray-100">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
 		  <!-- GitHub SVG -->
 		  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
 			<path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
@@ -130,7 +130,7 @@
 
 	  <!-- Theme Toggle -->
 	  <button on:click={handleSwitchDarkMode} class="flex items-center gap-2 px-3 py-2 rounded-xl transition-colors hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-white/20 ml-2">
-		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-90 dark:text-gray-100">
+		<div class="flex items-center justify-center w-8 h-8 bg-black/10 rounded-full text-gray-100">
 		  <!-- Theme SVG -->
 		  {#if darkMode}
 			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">

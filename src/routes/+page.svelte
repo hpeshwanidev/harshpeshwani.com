@@ -60,7 +60,7 @@
 >
 	<!-- Name -->
 	<h1
-		class="text-5xl sm:text-1xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-900 to-neutral-600 dark:from-neutral-50 dark:to-neutral-400"
+		class="text-5xl sm:text-1xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 dark:from-neutral-100 dark:to-neutral-300"
 	>
 		Harsh Peshwani
 	</h1>
@@ -76,7 +76,7 @@
 	<div class="flex flex-col sm:flex-row justify-center items-center gap-4">
 		<a href="/chat">
 			<span
-				class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-all duration-300 hover:scale-105 transform shadow-lg hover:shadow-blue-500/25 no-underline"
+				class="inline-flex items-center px-6 py-3 bg-blue-600 text-gray-100 rounded-lg hover:bg-blue-700 transition-all duration-300 cursor-pointer backdrop-blur-sm"
 			>
 				<!-- Message/Chat SVG -->
 				<svg
@@ -102,7 +102,7 @@
 
 	<!-- Social Icons & Contact Row -->
 	<div
-		class="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 space-y-4 sm:space-y-0 text-gray-90 dark:text-gray-200 mt-4"
+		class="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 space-y-4 sm:space-y-0 text-gray-400 mt-4"
 	>
 		<!-- LinkedIn -->
 		<a
@@ -183,7 +183,7 @@
 	</div>
 
 	<!-- Down-arrow indicator at bottom -->
-	<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl justify-center text-gray-90 dark:text-gray-100 opacity-70">
+	<div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 animate-bounce text-3xl justify-center opacity-70">
 		<i class="fas fa-chevron-down justify-center"></i>
 	</div>
 </div>
