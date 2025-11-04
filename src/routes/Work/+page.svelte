@@ -74,7 +74,7 @@
 											<path d="M10 14 21 3"></path>
 											<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
 										</svg>
-											<a href={exp.company === "SOTI Inc." ? "https://www.soti.net/" : "#"} target="_blank" rel="noopener noreferrer" class="font-medium text-xs truncate hover:text-white dark:hover:text-white   hover:text-gray-900 transition-colors duration-200 hover:underline underline-offset-2">{exp.company}</a>
+											<a href={exp.company === "SOTI Inc." ? "https://www.soti.net/" : exp.company === "Quality Cheese Inc." ? "https://qualitycheese.com" : "#"} target="_blank" rel="noopener noreferrer" class="font-medium text-xs truncate hover:text-white dark:hover:text-white   hover:text-gray-900 transition-colors duration-200 hover:underline underline-offset-2">{exp.company}</a>
 									</div>
 									<div class="flex items-center gap-3 text-gray-100 dark:text-gray-100   text-gray-700 text-xs mb-2">
 										<div class="flex items-center gap-1 text-gray-100 dark:text-gray-100   text-gray-700">
@@ -113,7 +113,7 @@
 														<path d="M10 14 21 3"></path>
 														<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
 													</svg>
-													<a href={exp.company === "SOTI Inc." ? "https://www.soti.net/" : "#"} target="_blank" rel="noopener noreferrer" class="font-medium text-sm truncate hover:text-white dark:hover:text-white   hover:text-gray-900 transition-colors duration-200 hover:underline underline-offset-2">{exp.company}</a>
+													<a href={exp.company === "SOTI Inc." ? "https://www.soti.net/" : exp.company === "Quality Cheese Inc." ? "https://qualitycheese.com" : "#"} target="_blank" rel="noopener noreferrer" class="font-medium text-sm truncate hover:text-white dark:hover:text-white   hover:text-gray-900 transition-colors duration-200 hover:underline underline-offset-2">{exp.company}</a>
 												</div>
 											</div>
 										</div>
