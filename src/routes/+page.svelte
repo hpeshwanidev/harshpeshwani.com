@@ -60,7 +60,7 @@
 >
 	<!-- Name -->
 	<h1
-		class="text-5xl sm:text-1xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 dark:from-neutral-100 dark:to-neutral-300"
+		class="text-5xl sm:text-1xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-600 to-neutral-700 bg-opacity-50 dark:from-neutral-100 dark:to-neutral-300"
 	>
 		Harsh Peshwani
 	</h1>
@@ -102,7 +102,7 @@
 
 	<!-- Social Icons & Contact Row -->
 	<div
-		class="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 space-y-4 sm:space-y-0 text-gray-400 mt-4"
+		class="flex flex-col sm:flex-row justify-center items-center sm:space-x-6 space-y-4 sm:space-y-0 text-gray-800 dark:text-white mt-4"
 	>
 		<!-- LinkedIn -->
 		<a
