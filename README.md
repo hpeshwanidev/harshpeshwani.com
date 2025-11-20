@@ -1,42 +1,147 @@
-<<<<<<< HEAD
-# Portfolio
-=======
-# create-svelte
+# 🌐 **harshpeshwani.com — Personal Developer Portfolio**
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<p align="center">
+  <strong>🚀 Showcasing my journey as a Software Developer — Projects, Skills, Experience, and Passion for building impactful solutions.</strong>
+</p>
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## ✨ **About This Portfolio**
+
+This repository contains the complete source code for my personal website **harshpeshwani.com**.
+Built with a strong focus on:
+
+* ⚡ Performance
+* 🎨 Modern UI/UX
+* 📱 Responsive design
+* 🌙 Light/Dark theme
+* 🧩 Component reusability
+* 🛠️ Clean directory structure
+
+---
+
+## 🔗 **Live Website**
+
+👉 **[https://harshpeshwani.com/](https://harshpeshwani.com/)**
+
+---
+
+## 🛠️ **Tech Stack**
+
+### **Frontend**
+
+| Technology            | Purpose               |
+| --------------------- | --------------------- |
+| **Svelte**            | Component-based UI    |
+| **JavaScript (ES6+)** | Core logic            |
+| **TailwindCSS**       | Utility-first styling |
+| **HTML5 + CSS3**      | Base structure/layout |
+
+
+### **Deployment**
+
+* **Vercel**
+* Custom domain integration (harshpeshwani.com)
+
+---
+
+## 🎯 **Key Features**
+
+### 🌗 **Dynamic Theme Toggle**
+
+Beautiful Light/Dark mode with automatic color adaptation.
+
+### 🎨 **Modern UI/UX**
+
+Smooth transitions, animations, hover effects, clean typography.
+
+### 📱 **Fully Responsive**
+
+Optimized for:
+
+* Desktop
+* Tablet
+* Mobile
+
+### 📂 **Project Showcase**
+
+A dedicated section highlighting my best work with visuals and descriptions.
+
+### 🧑‍💻 **Skills & Experience**
+
+Organized, clean layout for easy navigation by recruiters.
+
+### 📬 **Contact Form**
+
+Instant connection via email or socials.
+
+---
+
+## 📁 **Project Structure**
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+/
+|— src/
+|   |— components/
+|   |— styles/
+|   |— data/
+|   |— routes/ 
+|— public/
+|— package.json
+|— tailwind.config.js
+|— README.md
 ```
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## ⚙️ **Running Locally**
+
+Clone repo:
+
+```bash
+git clone https://github.com/harshpeshwani/harshpeshwani.com.git
+```
+
+Install:
+
+```bash
+npm install
+```
+
+Start dev server:
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
+Build:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+---
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
->>>>>>> 7a41214 (Base Code of Poertfolio)
+## 🧑‍🚀 **About Me**
+
+I’m **Harsh Peshwani**, a passionate developer interested in:
+
+* Full Stack Development 
+* UI/UX design
+* Backend development (Java, Spring Boot)
+* Cloud-native applications
+* Building full-stack products end-to-end
+
+Always learning. Always improving.
+
+---
+
+## 🔗 **Connect With Me**
+
+| Platform      | Link                                                                           |
+| ------------- | ------------------------------------------------------------------------------ |
+| **Portfolio** | [https://harshpeshwani.com](https://harshpeshwani.com)                         |
+| **LinkedIn**  | [https://linkedin.com/in/harshpeshwani](https://linkedin.com/in/harshpeshwani) |
+| **Email**     | *hpeshwani.dev@gmail.com*                                                      |
+
+---
