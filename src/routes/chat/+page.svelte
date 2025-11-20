@@ -1,6 +1,6 @@
 <script>
 	import Back2 from "$lib/Back2.svelte";
-
+	import { afterUpdate } from "svelte";
 	let messages = [];
 	let input = "";
 	let loading = false;
@@ -36,6 +36,26 @@
 		}
 		loading = false;
 	}
+	let chatContainer;
+
+	function scrollToBottom() {
+		if (chatContainer) {
+			chatContainer.scrollTop = chatContainer.scrollHeight;
+		}
+	}
+
+	afterUpdate(() => {
+		scrollToBottom();
+	});
+	function handleKeydown(event) {
+	// Press Enter = send
+	if (event.key === "Enter" && !event.shiftKey) {
+		event.preventDefault(); // Prevent newline
+		sendMessage();
+	}
+}
+
+
 </script>
 
 <svelte:head>
@@ -102,8 +122,11 @@
 			<div class="flex-1 w-full max-w-2xl lg:max-w-3xl bg-gray-900/40 backdrop-blur-xl rounded-3xl border border-gray-700/30 shadow-2xl flex flex-col overflow-hidden justify-between h-[60vh]">
 
 		<!-- Messages -->
-		<div class="overflow-y-auto px-6 py-8 space-y-4 flex-1">
-			{#if messages.length === 0}
+		<div
+		bind:this={chatContainer}
+		class="overflow-y-auto px-6 py-8 space-y-4 flex-1"
+	    >
+				{#if messages.length === 0}
 				<div class="flex flex-col items-center justify-center h-full text-center px-4">
 					<div class="w-16 h-16 mb-4 bg-gray-800/40 rounded-full flex items-center justify-center">
 						<div class="w-16 h- text-gray-400">
@@ -146,6 +169,7 @@
 					bind:value={input}
 					placeholder="Type your message..."
 					rows="1"
+					on:keydown={handleKeydown}
 					class="w-full bg-gray-800/50 border border-gray-600/40 rounded-xl px-4 py-3 pr-12 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500/50 resize-none text-sm backdrop-blur-sm"
 				></textarea>
 
